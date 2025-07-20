@@ -1,8 +1,9 @@
-package org.minispring.core;
+package org.minispring.web;
 
 import com.sun.net.httpserver.*;
 import org.minispring.annotation.RequestMapping;
 import org.minispring.annotation.stereotype.RestController;
+import org.minispring.core.BeanDefinitionRegistry;
 
 import java.io.IOException;
 import java.io.OutputStream;

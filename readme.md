@@ -17,7 +17,7 @@ A lightweight Java framework inspired by Spring, built from scratch to understan
 
 ## 📁 Project Structure
 ```
-org.minispring
+org.minispring (package and name can be differ)
 │
 ├── annotations/           → Custom annotations
 ├── core/
