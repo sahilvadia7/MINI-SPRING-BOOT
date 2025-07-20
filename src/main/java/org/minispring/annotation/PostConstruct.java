@@ -2,8 +2,7 @@ package org.minispring.annotation;
 
 import java.lang.annotation.*;
 
-@Target({ElementType.TYPE,ElementType.FIELD})
+@Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Autowired{
-
+public @interface PostConstruct {
 }
